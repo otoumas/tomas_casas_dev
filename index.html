@@ -14,6 +14,7 @@
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -22,20 +23,21 @@
 
 <!-- Hero Section -->
 <section id="home" class="hero">
-    <!-- Reemplaza las imágenes flotantes por emojis -->
-    <span class="floating floating-1" aria-label="Laptop" role="img">💻</span>
-    <span class="floating floating-2" aria-label="Code" role="img">👨‍💻</span>
-    <span class="floating floating-3" aria-label="Cloud DevOps" role="img">☁️</span>
     <div class="container">
         <div class="hero-content">
-            <h1>Tomás de las Casas</h1>
-            <p class="subtitle">Software Engineer</p>
-            <p class="location">
-                <!-- Reemplaza el icono SVG por emoji -->
-                <span style="font-size:1em;vertical-align:middle;margin-right:0.3em;">📍</span>
-                Tenerife, Spain
+            <h1>👋 I'm Tomás de las Casas. I build scalable software solutions and craft elegant code.</h1>
+            <p class="hero-description">
+                Full-stack software engineer with 12+ years of experience across AI, blockchain, e-commerce, and fintech.
+                I create robust backend systems and DevOps solutions that solve real-world problems.
             </p>
-            <a href="#about" class="cta-button">Discover More</a>
+            <p class="hero-description">
+                Expertise in Python, TypeScript, and cloud-native architectures. Passionate about clean code,
+                scalable systems, and emerging technologies. Every solution is built with performance,
+                maintainability, and impact in mind.
+            </p>
+            <div class="hero-location">
+                📍 Tenerife, Spain
+            </div>
         </div>
     </div>
 </section>
@@ -43,68 +45,123 @@
 <!-- About Section -->
 <section id="about" class="about">
     <div class="container">
-        <h2 class="section-title fade-in">About Me</h2>
         <div class="about-content">
-            <div class="about-text fade-in">
+            <div class="about-text">
+                <h2>About</h2>
                 <p>
-                    With over 12 years of experience in software engineering, I specialize in building robust backend
-                    systems and DevOps solutions. My expertise spans multiple programming languages and cutting-edge
-                    technologies, with a focus on scalable architecture and efficient deployment strategies.
+                    I'm a software engineer who thrives on solving complex technical challenges and building systems that scale.
+                    With over a decade of experience, I've worked across diverse industries from AI and blockchain to e-commerce and finance.
                 </p>
                 <p>
-                    I have extensive experience across diverse domains including AI, Blockchain, e-commerce,
-                    transportation, and finance, allowing me to bring unique perspectives to complex technical
-                    challenges.
+                    My approach combines technical expertise with a deep understanding of business needs. I specialize in backend
+                    architecture, DevOps practices, and creating solutions that are both powerful and maintainable.
+                </p>
+                <p>
+                    When I'm not coding, you'll find me exploring new technologies, contributing to open source projects,
+                    or enjoying the beautiful landscapes of Tenerife.
                 </p>
             </div>
-            <div class="skills-grid fade-in">
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">TypeScript</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">Kotlin</span>
-                        <span class="skill-tag">Go</span>
-                        <span class="skill-tag">Rust</span>
-                        <span class="skill-tag">Bash</span>
+
+            <div class="skills-section">
+                <h3>Technical Skills</h3>
+                <div class="skill-categories">
+                    <div class="skill-group">
+                        <h4>Languages</h4>
+                        <div class="skill-list">
+                            <span>Python</span>
+                            <span>TypeScript</span>
+                            <span>JavaScript</span>
+                            <span>Java</span>
+                            <span>Kotlin</span>
+                            <span>Go</span>
+                            <span>Rust</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>Frameworks & Tools</h4>
+                        <div class="skill-list">
+                            <span>FastAPI</span>
+                            <span>SpringBoot</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Docker</span>
+                            <span>Terraform</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>Cloud & DevOps</h4>
+                        <div class="skill-list">
+                            <span>AWS</span>
+                            <span>Azure</span>
+                            <span>Google Cloud</span>
+                            <span>Kubernetes</span>
+                            <span>Ansible</span>
+                            <span>CI/CD</span>
+                        </div>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Frameworks</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">FastAPI</span>
-                        <span class="skill-tag">SpringBoot</span>
-                        <span class="skill-tag">Dropwizard</span>
-                        <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">React/Redux</span>
-                        <span class="skill-tag">Electron</span>
-                        <span class="skill-tag">OClif</span>
-                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Senior Software Engineer</h3>
+                    <span class="experience-period">2018 - Present</span>
                 </div>
-                <div class="skill-category">
-                    <h3>DevOps & Cloud</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Terraform</span>
-                        <span class="skill-tag">Ansible</span>
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Azure</span>
-                        <span class="skill-tag">GCloud</span>
-                        <span class="skill-tag">Linode</span>
-                    </div>
+                <p class="experience-description">
+                    Leading backend development and DevOps initiatives across multiple domains including AI, blockchain,
+                    and e-commerce. Architect scalable systems and mentor development teams.
+                </p>
+                <div class="experience-tech">
+                    <span>Python</span>
+                    <span>FastAPI</span>
+                    <span>AWS</span>
+                    <span>Docker</span>
+                    <span>Terraform</span>
                 </div>
-                <div class="skill-category">
-                    <h3>Domains</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">AI</span>
-                        <span class="skill-tag">Blockchain</span>
-                        <span class="skill-tag">E-commerce</span>
-                        <span class="skill-tag">Transportation</span>
-                        <span class="skill-tag">Finance</span>
-                    </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Full-Stack Developer</h3>
+                    <span class="experience-period">2015 - 2018</span>
+                </div>
+                <p class="experience-description">
+                    Developed end-to-end solutions for fintech and transportation industries.
+                    Built robust APIs and responsive frontend applications.
+                </p>
+                <div class="experience-tech">
+                    <span>Java</span>
+                    <span>SpringBoot</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>PostgreSQL</span>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Software Developer</h3>
+                    <span class="experience-period">2012 - 2015</span>
+                </div>
+                <p class="experience-description">
+                    Started my journey building web applications and learning the fundamentals of software engineering.
+                    Gained experience in various programming languages and development practices.
+                </p>
+                <div class="experience-tech">
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>HTML/CSS</span>
                 </div>
             </div>
         </div>
@@ -114,28 +171,56 @@
 <!-- Projects Section -->
 <section id="projects" class="projects">
     <div class="container">
-        <h2 class="section-title fade-in">Featured Projects</h2>
+        <h2>Selected Projects</h2>
         <div class="projects-grid">
-            <div class="project-card fade-in">
-                <div class="project-content">
+            <div class="project-card">
+                <div class="project-header">
                     <h3>Bimbaylola.com</h3>
-                    <p>
-                        AI-powered search engine that leverages machine learning algorithms to deliver intelligent and
-                        contextual search results. Built with modern technologies to provide users with a superior
-                        search experience.
-                    </p>
-                    <a href="https://bimbaylola.com" target="_blank" class="project-link">Visit Project →</a>
+                    <a href="https://bimbaylola.com" target="_blank" class="project-link">↗</a>
+                </div>
+                <p class="project-description">
+                    AI-powered search engine leveraging machine learning algorithms to deliver intelligent and
+                    contextual search results. Built with modern technologies to provide superior search experiences.
+                </p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>FastAPI</span>
+                    <span>AI/ML</span>
+                    <span>Vector DB</span>
                 </div>
             </div>
-            <div class="project-card fade-in">
-                <div class="project-content">
+
+            <div class="project-card">
+                <div class="project-header">
                     <h3>Horizen Zen Block Explorer</h3>
-                    <p>
-                        Comprehensive blockchain explorer for the Horizen network, providing real-time transaction
-                        tracking, block analysis, and network statistics. Essential tool for developers and users in the
-                        Horizen ecosystem.
-                    </p>
-                    <a href="#" class="project-link">Learn More →</a>
+                    <a href="#" class="project-link">↗</a>
+                </div>
+                <p class="project-description">
+                    Comprehensive blockchain explorer for the Horizen network providing real-time transaction tracking,
+                    block analysis, and network statistics. Essential tool for the Horizen ecosystem.
+                </p>
+                <div class="project-tech">
+                    <span>TypeScript</span>
+                    <span>Node.js</span>
+                    <span>Blockchain</span>
+                    <span>React</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>E-commerce Platform</h3>
+                    <a href="#" class="project-link">↗</a>
+                </div>
+                <p class="project-description">
+                    Scalable e-commerce solution with microservices architecture, handling high-volume transactions
+                    and complex inventory management across multiple channels.
+                </p>
+                <div class="project-tech">
+                    <span>Java</span>
+                    <span>SpringBoot</span>
+                    <span>Microservices</span>
+                    <span>AWS</span>
                 </div>
             </div>
         </div>
@@ -145,26 +230,27 @@
 <!-- Contact Section -->
 <section id="contact" class="contact">
     <div class="container">
-        <h2 class="section-title fade-in">Let's Connect</h2>
-        <div class="contact-content fade-in">
+        <div class="contact-content">
+            <h2>Let's work together</h2>
             <p>
                 I'm always interested in discussing new opportunities, innovative projects, or potential collaborations.
-                Whether you're looking for a skilled software engineer or want to explore how we can work together, I'd
-                love to hear from you.
+                Whether you're looking for a skilled software engineer or want to explore how we can work together,
+                I'd love to hear from you.
             </p>
+
             <div class="contact-links">
                 <a href="https://www.linkedin.com/in/tomas-casas-engel/" target="_blank" class="contact-link">
-                    <!-- Reemplaza el icono SVG por emoji -->
-                    <span style="font-size:1.2em;vertical-align:middle;margin-right:0.5em;">🔗</span>
-                    LinkedIn
+                    LinkedIn ↗
                 </a>
                 <a href="https://github.com/otoumas" target="_blank" class="contact-link">
-                    <span style="font-size:1.2em;vertical-align:middle;margin-right:0.5em;">🐙</span>
-                    GitHub
+                    GitHub ↗
+                </a>
+                <a href="mailto:contact@example.com" class="contact-link">
+                    Email ↗
                 </a>
             </div>
+
             <a href="#" class="download-resume" onclick="downloadResume()">
-                <span style="font-size:1.2em;vertical-align:middle;margin-right:0.5em;">📄</span>
                 Download Resume
             </a>
         </div>
@@ -174,7 +260,7 @@
 <!-- Footer -->
 <footer>
     <div class="container">
-        <p>&copy; 2024 Tomás de las Casas. All rights reserved.</p>
+        <p>&copy; 2024 Tomás de las Casas</p>
     </div>
 </footer>
 
